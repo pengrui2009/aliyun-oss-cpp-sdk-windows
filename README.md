@@ -46,6 +46,8 @@ cmake ..
 
 ### Windows
 
+#### Visual Studio build
+
 Enter build folder, open alibabacloud-oss-cpp-sdk.sln with Visual Studio.
 
 Or run the the following commands to build and install:
@@ -53,6 +55,16 @@ Or run the the following commands to build and install:
 ```
 msbuild ALL_BUILD.vcxproj
 msbuild INSTALL.vcxproj
+```
+#### Mingw build within Command
+
+```
+mkdir build
+
+cd build
+# mingw64位编译,如果mingw安装32位版本，则把-DCMAKE_CL_64=1去掉
+cmake -DCMAKE_CL_64=1 -G "MinGW Makefiles" ..
+mingw32-make.exe
 ```
 
 ### Linux
