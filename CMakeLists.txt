@@ -33,7 +33,7 @@ option(BUILD_TESTS "Build unit and perfermence tests" OFF)
 option(ENABLE_COVERAGE "Flag to enable/disable building code with -fprofile-arcs and -ftest-coverage. Gcc only" OFF)
 option(ENABLE_RTTI "Flag to enable/disable building code with RTTI information" ON)
 
-
+set(HAVE__MKGMTIME64 1)
 #Platform
 if (CMAKE_CROSSCOMPILING)
 	if (${CMAKE_SYSTEM_NAME} STREQUAL "Android")
