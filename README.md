@@ -67,6 +67,9 @@ cmake -DCMAKE_CL_64=1 -G "MinGW Makefiles" ..
 mingw32-make.exe
 ```
 
+windows qt demo: https://github.com/pengrui2009/aliyun-oss-cpp-sdk-windows-qtdemo
+
+
 ### Linux
 
 Install third-party libraries on the Linux platform, including `libcurl` and `libopenssl`.
