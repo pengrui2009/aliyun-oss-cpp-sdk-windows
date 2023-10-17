@@ -67,7 +67,9 @@ cmake -DCMAKE_CL_64=1 -G "MinGW Makefiles" ..
 mingw32-make.exe
 ```
 
-windows qt demo: https://github.com/pengrui2009/aliyun-oss-cpp-sdk-windows-qtdemo
+#### windows qt demo
+
+qt demo(x64): https://github.com/pengrui2009/aliyun-oss-cpp-sdk-windows-qtdemo
 
 
 ### Linux
